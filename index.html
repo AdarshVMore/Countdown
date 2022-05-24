@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;300;400;700&family=Oswald:wght@200&family=Poppins:wght@600&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <!--=======================    INPUT     ====================-->
+    <div class="input" id="input">
+        <div class="input-date">
+            <h3>Date : </h3>
+            <input name="input-date" id="input-date"  type="date" >
+        </div>
+        <div class="input-for">
+            <h3>For : </h3>
+            <input type="text" name="input-text" id="input-text">
+        </div>
+        <button class="btn"><a href="">Start</a> </button>
+    </div>
+    <!--========================  Countdown  ====================-->
+    <div class="countdown" id="countdown">
+        <div class="name-slot" id="nameslot">
+            <h3>Days</h3>
+            <h3>Hours</h3>
+            <h3>Minutes</h3>
+            <h3>Seconds</h3>
+        </div>
+        <div class="time-slot" id="time-slot">
+            <h3 class="days" id="days">00</h3>
+            <h3 class="hours" id="hours">00</h3>
+            <h3 class="minutes" id="minutes">00</h3>
+            <h3 class="seconds" id="seconds">00</h3>
+        </div>
+        <div class="for-slot" id="for-slot">
+            <span>For : </span> <span class="for" id="for"></span>
+        </div>
+    </div>
+    <h2>&#169 Adarsh More</h2>
+    <!-- =======================  Pendulam   ======================== -->
+  <!--  <div class="image">
+        <div class="pendulum1" id="pendulum1">
+            <div class="rod"></div>
+            <div class="ball"></div>
+        </div>
+        <div class="pendulum2" id="pendulum2">
+            <div class="rod"></div>
+            <div class="ball"></div>
+        </div>
+        <div class="pendulum3" id="pendulum3">
+            <div class="rod"></div>
+            <div class="ball"></div>
+        </div>
+        <div class="pendulum4" id="pendulum4">
+            <div class="rod"></div>
+            <div class="ball"></div>
+        </div>
+    </div>-->
+<!--=======================   Javascript   ============================-->
+    <script src="script.js"></script>
+</body>
+</html>
